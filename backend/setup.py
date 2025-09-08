@@ -4,6 +4,7 @@ from fastapi.responses import FileResponse
 from transformers import CsmForConditionalGeneration, AutoProcessor
 from reqs import oneSentenceReq
 import io
+import os
 
 model_dir = "../models/csm-1b"
 device = "cuda" if torch.cuda.is_available() else "cpu"
