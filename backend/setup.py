@@ -19,4 +19,4 @@ def tts(request: oneSentenceReq):
     processed_input = processor(input_text, add_special_tokens=True).to(device)
     audio = model.generate(**processed_input, output_audio=True)
     processor.save_audio(audio, "../tmp/tmp.wav")
-    return FileResponse("../tmp/tmp.wav", media_type="audio/wav", file_name="response.wav")
+    return FileResponse("../tmp/tmp.wav", media_type="audio/wav", filename="response.wav")
