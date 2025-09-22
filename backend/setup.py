@@ -5,7 +5,9 @@ from transformers import CsmForConditionalGeneration, AutoProcessor
 from reqs import oneSentenceReq, generatePrevContextReq
 import io
 import os
+
 from langchain.chat_models import init_chat_model
+
 
 model_dir = "../models/csm-1b"
 device = "cuda" if torch.cuda.is_available() else "cpu"
