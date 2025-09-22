@@ -28,10 +28,10 @@ def _return_file(input_text):
     processor.save_audio(audio, "../tmp/tmp.wav")
     return FileResponse("../tmp/tmp.wav", media_type="audio/wav", filename="response.wav")
 
-def _infer_next_sentence(text: str, model: str):
-    chat_model = init_chat_model(model, model_provider="openai")
-    generated_next_sentence = chat_model.invoke("Respond a sentence to: " + text)
-    return generated_next_sentence
+def _infer_next_sentence(text: str, model_name: str):
+    chat_model = init_chat_model(model_name, model_provider="openai")
+    result = chat_model.invoke("Respond a sentence to: " + text)
+    return result.content
 
 @app.post("/generate_with_context")
 def generate_with_context(request: generatePrevContextReq):
