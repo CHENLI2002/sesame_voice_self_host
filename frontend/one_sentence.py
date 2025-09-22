@@ -1,7 +1,7 @@
 import requests
 from tools import play_sound
 
-current_trial = "Hello World"
+current_trial = "This is a test of the Sesame one billion parameter model."
 port = "8080"
 ip = "http://80.225.232.52"
 url = f"{ip}:{port}/generate_one_sentence"

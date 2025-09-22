@@ -36,5 +36,5 @@ def _infer_next_sentence(text: str, model: str):
 @app.post("/generate_with_context")
 def generate_with_context(request: generatePrevContextReq):
     previous_context = request.previous_conversation
-    next_sentence = _infer_next_sentence(previous_context, model)
+    next_sentence = _infer_next_sentence(previous_context, "gpt-3.5-turbo")
     return _return_file(next_sentence)
