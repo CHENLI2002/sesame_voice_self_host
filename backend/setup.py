@@ -9,7 +9,7 @@ import os
 from langchain.chat_models import init_chat_model
 
 
-model_dir = "../models/csm-1b"
+model_dir = "sesame/csm-1b"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 app = FastAPI(version="1.0")
