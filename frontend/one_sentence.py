@@ -2,7 +2,9 @@ import requests
 from tools import play_sound
 
 current_trial = "Hello motherfucker"
-url = "http://104.171.203.203:8080/generate_one_sentence"
+port = "8000"
+ip = "80.225.232.52"
+url = f"{ip}:{port}/generate_one_sentence"
 query = {"text": current_trial}
 
 response = requests.post(url, json=query)

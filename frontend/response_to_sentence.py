@@ -2,7 +2,9 @@ import requests
 from tools import play_sound
 
 current_context_prev_conversation = "Bruh.... WTF"
-url = "http://104.171.203.203:8080/generate_with_context"
+port = "8000"
+ip = "80.225.232.52"
+url = f"{ip}:{port}/generate_one_sentence"
 query = {
     "previous_conversation": current_context_prev_conversation,
     "model": "gpt-3.5-turbo"

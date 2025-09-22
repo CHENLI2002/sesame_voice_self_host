@@ -13,7 +13,6 @@ model_dir = "sesame/csm-1b"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 app = FastAPI(version="1.0")
-key = os.environ["API_KEY"]
 
 processor = AutoProcessor.from_pretrained(model_dir)
 model = CsmForConditionalGeneration.from_pretrained(model_dir).to(device)
