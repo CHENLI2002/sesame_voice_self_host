@@ -12,21 +12,13 @@ attrs==25.3.0
 beautifulsoup4==4.12.2
 bleach==6.2.0
 blinker==1.6.2
-boltons @ file:///Users/cbousseau/work/recipes/ci_py311/boltons_1677965141748/work
 brotlipy==0.7.0
 cachetools==5.3.2
 certifi==2025.7.9
-cffi @ file:///Users/cbousseau/work/recipes/ci_py311/cffi_1677903595907/work
 charset-normalizer==3.4.2
 click==8.1.7
 cloudpickle==1.2.2
-conda @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_47t5xq9oq5/croot/conda_1694544078292/work
-conda-content-trust @ file:///Users/cbousseau/work/recipes/ci_py311/conda-content-trust_1677970020347/work
-conda-libmamba-solver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_48qgqxi1ys/croot/conda-libmamba-solver_1685032355439/work/src
-conda-package-handling @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_57h_oo3f_8/croot/conda-package-handling_1685024802254/work
-conda_package_streaming @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4fwljxujl7/croot/conda-package-streaming_1685019683894/work
 contourpy==1.1.1
-cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4a_lrlt_rt/croot/cryptography_1686613068564/work
 cycler==0.12.1
 dataclasses-json==0.6.7
 datasets==4.0.0
@@ -52,7 +44,6 @@ google-auth==2.23.4
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 googleapis-common-protos==1.65.0
-graphviz @ file:///Users/cbousseau/work/recipes/ci_py311/python-graphviz_1678001933790/work
 grpcio==1.59.2
 gym==0.15.4
 gymnasium==0.29.1
@@ -86,7 +77,6 @@ langchain-core==0.3.68
 langchain-text-splitters==0.3.8
 langsmith==0.4.4
 libclang==16.0.6
-libmambapy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_097by3g74m/croot/mamba-split_1685997889336/work/libmambapy
 lxml==4.9.3
 Markdown==3.5.1
 markdown-it-py==3.0.0
@@ -122,7 +112,6 @@ Pillow==10.1.0
 pipenv==2024.0.1
 platformdirs==4.2.2
 playsound==1.3.0
-pluggy @ file:///Users/cbousseau/work/recipes/ci_py311/pluggy_1677906980825/work
 propcache==0.3.2
 protobuf==4.25.0
 psutil==7.0.0
@@ -130,8 +119,6 @@ pyarrow==20.0.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 PyAudio==0.2.14
-pycosat @ file:///Users/cbousseau/work/recipes/ci_py311/pycosat_1677933552468/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydantic==2.11.7
 pydantic-settings==2.10.1
 pydantic_core==2.33.2
@@ -139,10 +126,8 @@ pyee==11.1.1
 pygame==2.6.1
 pyglet==1.3.2
 Pygments==2.19.1
-pyOpenSSL @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ddecjfxr7g/croot/pyopenssl_1678965309681/work
 pyparsing==3.1.1
 pyppeteer==2.0.0
-PySocks @ file:///Users/cbousseau/work/recipes/ci_py311/pysocks_1677906386870/work
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 pytz==2025.2
@@ -156,7 +141,6 @@ requests-toolbelt==1.0.0
 rich==14.0.0
 rpds-py==0.22.3
 rsa==4.9
-ruamel.yaml @ file:///Users/cbousseau/work/recipes/ci_py311/ruamel.yaml_1677934845850/work
 safetensors==0.5.3
 sb3_contrib==2.3.0
 scikit-learn==1.3.2
@@ -165,7 +149,6 @@ six==1.17.0
 sniffio==1.3.1
 soupsieve==2.5
 SQLAlchemy==2.0.41
-stable_baselines3 @ git+https://github.com/DLR-RM/stable-baselines3@6c00565778e5815e4589afc7499aafbd020535ae
 sympy==1.14.0
 tenacity==9.1.2
 tensorboard==2.16.2
@@ -180,7 +163,6 @@ threadpoolctl==3.2.0
 timm==0.3.2
 tinycss2==1.4.0
 tokenizers==0.21.2
-toolz @ file:///Users/cbousseau/work/recipes/ci_py311/toolz_1677925870232/work
 torch==2.7.1
 torchvision==0.16.1
 tornado==6.4.2
