@@ -1,9 +1,9 @@
 import requests
 from tools import play_sound
 
-current_trial = "Hello motherfucker"
-port = "8000"
-ip = "80.225.232.52"
+current_trial = "Hello World"
+port = "8080"
+ip = "http://80.225.232.52"
 url = f"{ip}:{port}/generate_one_sentence"
 query = {"text": current_trial}
 

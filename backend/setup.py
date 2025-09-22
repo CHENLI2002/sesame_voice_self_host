@@ -20,7 +20,7 @@ model = CsmForConditionalGeneration.from_pretrained(model_dir).to(device)
 @app.post("/generate_one_sentence")
 def generate_one_sentence(request: oneSentenceReq):
     input_text = "[0]" + request.text
-    _return_file(input_text)
+    return _return_file(input_text)
 
 def _return_file(input_text):
     p_input = processor(input_text, add_special_tokens=True).to(device)
@@ -37,4 +37,4 @@ def _infer_next_sentence(text: str, model: str):
 def generate_with_context(request: generatePrevContextReq):
     previous_context = request.previous_conversation
     next_sentence = _infer_next_sentence(previous_context, model)
-    _return_file(next_sentence)
+    return _return_file(next_sentence)

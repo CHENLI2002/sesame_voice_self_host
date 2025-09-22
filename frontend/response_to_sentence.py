@@ -2,8 +2,8 @@ import requests
 from tools import play_sound
 
 current_context_prev_conversation = "Bruh.... WTF"
-port = "8000"
-ip = "80.225.232.52"
+port = "8080"
+ip = "http://80.225.232.52"
 url = f"{ip}:{port}/generate_one_sentence"
 query = {
     "previous_conversation": current_context_prev_conversation,
